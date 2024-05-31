@@ -81,12 +81,12 @@ app.get('/app', (req,res)=>{
 
 
 // email sending route
-app.post('/get_details/:receivers_email/order', async (req,res)=>{
+app.post('/get_details/:receivers_email/order/', async (req,res)=>{
     try {
 
         const receiverEmail = req.params.receivers_email;
 
-        // console.log(receiverEmail);
+        // console.log(receiverEmail);kddkd
 
         
 
